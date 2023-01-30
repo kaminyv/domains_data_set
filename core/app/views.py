@@ -1,3 +1,11 @@
-from django.shortcuts import render
+"""
+Views for application app
+"""
+from django.shortcuts import HttpResponse
 
-# Create your views here.
+
+def index():
+    """
+    Test response
+    """
+    return HttpResponse("<h1>Hello, world!</h1>")
